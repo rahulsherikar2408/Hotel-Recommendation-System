@@ -1,11 +1,15 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-from nltk import stopwords
-from nltk import word_tokenize
-from nltk import WordNetLemmatizer
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
 from math import sin, cos, sqrt, atan2, radians
 import requests
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem.wordnet import WordNetLemmatizer
 
 
 st.set_page_config(page_title="Hotel Recommendation System", layout="wide")
