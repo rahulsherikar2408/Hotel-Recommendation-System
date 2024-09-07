@@ -1,18 +1,12 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
+from nltk import stopwords
+from nltk import word_tokenize
+from nltk import WordNetLemmatizer
 from math import sin, cos, sqrt, atan2, radians
 import requests
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem.wordnet import WordNetLemmatizer
+
 
 st.set_page_config(page_title="Hotel Recommendation System", layout="wide")
 secret_value_0 = '4519d076b432f5'
