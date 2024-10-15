@@ -98,6 +98,11 @@ http://localhost:8501
 2. **Recommendation Engine**: The system processes the inputs and returns a list of hotels that match the criteria.
 3. **Book Now Links**: Each recommendation comes with a direct booking link to streamline the reservation process.
 
+## Screenshots
+
+![User Preferences Input Form for Personalized Hotel Recommendations](Screenshots/Screenshot-1.png)
+![Top Hotel Recommendations with Interactive Booking Links](Screenshots/Screenshot-2.png)
+
 ## Contribution
 
 Feel free to submit issues or fork the repository to contribute.
