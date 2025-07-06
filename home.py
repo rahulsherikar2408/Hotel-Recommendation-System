@@ -46,9 +46,9 @@ def load_data():
     global hotel_details
     global hotel_rooms
     global hotel_cost
-    hotel_details=pd.read_csv('Hotel_details.csv',delimiter=',')
-    hotel_rooms=pd.read_csv('Hotel_Room_attributes.csv',delimiter=',')
-    hotel_cost=pd.read_csv('hotels_RoomPrice.csv',delimiter=',')
+    hotel_details=pd.read_csv('Hotel_details.csv', encoding='latin1')
+    hotel_rooms=pd.read_csv('Hotel_Room_attributes.csv', encoding='latin1')
+    hotel_cost=pd.read_csv('hotels_RoomPrice.csv', encoding='latin1')
     del hotel_details['id']
     del hotel_rooms['id']
     del hotel_details['zipcode']
