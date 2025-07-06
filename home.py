@@ -17,6 +17,7 @@ secret_value_0 = '4519d076b432f5'
 R = 6373.0  # Earth's Radius in kilometers
 nltk.download('stopwords')
 nltk.download('punkt_tab')
+nltk.download('wordnet')
 sw = stopwords.words('english')
 lemm = WordNetLemmatizer()
 
